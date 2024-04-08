@@ -1,0 +1,16 @@
+.country-info {
+  border: 10px solid darkblue;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+
+  & ul {
+    margin-top: 10px;
+    padding-left: 0;
+
+    & li {
+      list-style: none;
+      text-transform: capitalize;
+    }
+  }
+}

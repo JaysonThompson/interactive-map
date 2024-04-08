@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<div class="country-info" *ngFor="let data of dataPoints">
+    <h2>{{ data['name']}}</h2>
+    <ul>
+        <li>Capital City: {{data['capitalCity']}}</li>
+        <li>Country Region: {{data['region']['value']}}</li>
+        <li>Income Level: {{data['incomeLevel']['value']}}</li>
+        <li>Latitude: {{data['latitude']}}</li>
+        <li>Longitude: {{data['longitude']}}</li>
+    </ul>
+</div>
